@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Tech Diário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1>Blog Tech Diário</h1>
+        <div class="filter">
+            <button onclick="filterPosts('all')">Todas as Categorias</button>
+            <button onclick="filterPosts('tecnologia')">Tecnologia</button>
+            <button onclick="filterPosts('inovação')">Inovação</button>
+            <button onclick="filterPosts('negocios')">Negócios</button>
+            <button onclick="filterPosts('informática')">Informática</button>
+        </div>
+    </nav>
+
+    <div class="main" id="posts-container">
+        <div class="post card1">
+            <a href="post1.html?id=1">
+                <img src="assets/photo-post1.jpg" width="300px;" height="200px;" alt="imagem1">
+            </a>
+            <h1>Meta Quest 3S: Óculos de realidade virtual.</h1>
+            <p>Dispositivo é uma versão 'mais básica' do Quest 3 e tem preços que partem de US$ 299 nos EUA. Não há previsão de chegada ao Brasil.</p>
+            <div class="data">
+                <small>Data: 2024-10-01 | Categoria: Tecnologia | <span id="views-count-1">Visualizações: 0</span></small>
+            </div>
+        </div>
+
+        <div class="post card2">
+            <a href="post2.html?id=2">
+                <img src="assets/photo-post2.jpg" width="300px;" height="200px;" alt="imagem2">
+            </a>
+            <h1>iServices: Inovação e tecnologia no centro do Chiado.</h1>
+            <p>É a primeira loja dedicada em exclusivo à marca própria da iServices, a iS.</p>
+            <div class="data">
+                <small>Data: 2024-10-01 | Categoria: Inovação | <span id="views-count-2">Visualizações: 0</span></small>
+            </div>
+        </div>
+
+        <div class="post card3">
+            <a href="post3.html?id=3">
+                <img src="assets/photo-post3.jpg" width="300px;" height="200px;" alt="imagem3">
+            </a>
+            <h1>Uso da tecnologia transforma o cenário das empresas em Sorocaba.</h1>
+            <p>Nos últimos anos, a digitalização se tornou um fator crucial para o crescimento das empresas, principalmente após a pandemia do Coronavírus.</p>
+            <div class="data">
+                <small>Data: 2024-10-01 | Categoria: Negócios | <span id="views-count-3">Visualizações: 0</span></small>
+            </div>
+        </div>
+
+        <div class="post card4">
+            <a href="post4.html?id=4">
+                <img src="assets/photo-post4.jpg" width="300px;" height="200px;" alt="imagem4">
+            </a>
+            <h1>MacBook Air com M3 é bom? Veja preço e ficha técnica do notebook da Apple.</h1>
+            <p>MacBook Air com M3 é um notebook da Apple lançado em março de 2024, disponível nos tamanhos de 13,6 ou 15,3 polegadas.</p>
+            <div class="data">
+                <small>Data: 2024-10-01 | Categoria: Informática | <span id="views-count-4">Visualizações: 0</span></small>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <address class="contato">
+            <div class="redes-sociais">
+            </div>
+        </address>
+        <p class="feitopor">2024 - Desenvolvido por Leticia Malteso<br>E-mail para contato:<span>leticia@malteso.com</span></p>
+    </footer>
+
+    <script defer src="scripts.js"></script>
+</body>
+</html>
